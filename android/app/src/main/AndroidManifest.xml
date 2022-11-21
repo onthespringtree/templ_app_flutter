@@ -4,6 +4,10 @@
         android:label="templ_app_flutter"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
+
+        <!-- My Google Maps API key here -->
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyCv_fFOCgsRgV6Mizp-TBD5ciV2Lysd804" />>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
